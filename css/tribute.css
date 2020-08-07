@@ -1,0 +1,147 @@
+/* TAG SELECTORS */
+blockquote{
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    font-size: 4rem !important;
+    font-family: 'Merriweather', serif; 
+}
+
+h2, h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #10375c;
+}
+
+h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+li{
+    font-family: 'Merriweather', serif;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; 
+}
+
+p{
+    font-family: 'Merriweather', serif;
+    line-height: 2;
+    text-align: justify;
+}
+
+
+/* TOP SECITION */
+#top{
+    background-color: #f3c623;
+    color: #393e46;
+}
+
+#top p{
+    width:60%;
+    margin: 0 auto;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+
+/* IMAGE SECTION */
+#image{
+    background-color: #10375c;
+}
+.pic{
+    width:25%;
+    margin: 0 auto;
+    background-color: #f3c623;
+    border-radius: 1%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-top-left-radius: 20%;
+    
+}
+
+
+/* MIDDLE SECTION */
+.colon{
+    position: absolute;
+    left: 14%;
+}
+
+.container{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#middle{
+    background-color: #fff;
+    color: #393e46;
+}
+
+.list-p{
+    position: absolute;
+    left: 15%;
+}
+
+
+/* LAST READ SECTION*/
+.last-read h4{
+    font-family: 'Montserrat', sans-serif;
+    color: #10375c;
+}
+
+
+/* FOOTER */
+#footer{
+    background-color: #10375c;
+    padding: 5% auto;
+    color:#f3c623;
+}
+
+#footer a{
+    padding-right: 1rem;
+    padding-right: 1rem;
+    color: #f3c623;
+}
+
+#footer a:hover{
+    color: lightcyan;
+    text-decoration: none;
+}
+
+.fab{
+    color: #f3c623;
+}
+
+.fab:hover{
+    color: lightcyan; 
+}
+
+
+
+
+
+@media (max-width:900px){
+    h1{
+        font-size: 2rem !important;
+    }
+    #middle h2{
+        padding-top: 1.5rem;
+    }
+
+    #top p{
+        width:100%;
+        margin: 0 auto;
+        font-size: 0.7rem !important;
+    }
+    #top h5{
+        font-size: 1rem !important;
+    }
+    .list-p{
+        position: static;
+    }
+    
+    .colon{
+        position: static;
+        
+    }
+}
+
